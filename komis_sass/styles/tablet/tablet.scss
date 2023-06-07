@@ -1,0 +1,105 @@
+@media screen and (min-width: 871px) and (max-width: 1023px) {
+    body{
+        main{
+            section{
+                article{
+                    display: grid;
+                    grid-template-columns: 40% 60%;
+                    grid-template-rows: 77% 23%;
+                    overflow: hidden;
+                    height: auto;
+
+                    img{
+                        grid-row: 1 / 2;
+                        grid-column: 1 / 2;
+
+                        width: 100%;
+                        height: fit-content;
+                    }
+
+                    p{
+                        grid-row: 1 / 2;
+                        grid-column: 2 / 3;
+                    }
+
+                    aside{
+                        grid-row: 2 / 3;
+                        grid-column: 1 / 2;
+                    
+                        width: 100%;
+    
+                        padding-bottom: 0;
+                        font-size: 15px;
+    
+                        div{
+                           font-size: 1em;
+                           margin-bottom: 5px;
+                        }
+
+                        a{
+                            height: 50%;
+                            width: 70%;
+                            padding: 5px;
+                    
+                            font-size: 1em;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 870px) {
+    body{
+        main{
+            section{
+                article{
+                    display: grid;
+                    grid-template-columns: 40% 60%;
+                    grid-template-rows: 73% 27%;
+                    overflow: hidden;
+                    height: auto;
+
+                    img{
+                        grid-row: 1 / 2;
+                        grid-column: 1 / 2;
+
+                        width: 100%;
+                        height: fit-content;
+                    }
+
+                    p{
+                        grid-row: 1 / 2;
+                        grid-column: 2 / 3;
+                    }
+
+                    aside{
+                        grid-row: 2 / 3;
+                        grid-column: 1 / 2;
+                    
+                        width: 100%;
+    
+                        padding-bottom: 0;
+                        font-size: 15px;
+    
+                        div{
+                           font-size: 1em;
+                           margin-bottom: 5px;
+                        }
+
+                        a{
+                            height: 50%;
+                            width: 70%;
+                            padding: 5px;
+                    
+                            font-size: 1em;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
